@@ -1,0 +1,20 @@
+{
+  "dataset_rows": 16000,
+  "train_rows": 12800,
+  "test_rows": 3200,
+  "test_accuracy": 0.8628125,
+  "labels_in_notebook_order": [
+    "sadness",
+    "anger",
+    "love",
+    "surprise",
+    "fear",
+    "joy"
+  ],
+  "model": "LogisticRegression(max_iter=1000)",
+  "features": "TfidfVectorizer()",
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42
+  }
+}
